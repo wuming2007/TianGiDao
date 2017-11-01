@@ -1,0 +1,50 @@
+object MindsetList: TMindsetList
+  Left = 0
+  Top = 0
+  BorderIcons = []
+  BorderStyle = Single
+  Caption = #36984#25799#36899#32218#35037#32622
+  ClientHeight = 243
+  ClientWidth = 311
+  Position = OwnerFormCenter
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnShow = FormShow
+  DesignerMasterStyle = 0
+  object lstMindwave: TListBox
+    Size.Width = 313.000000000000000000
+    Size.Height = 200.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    DisableFocusEffect = True
+    DefaultItemStyles.ItemStyle = ''
+    DefaultItemStyles.GroupHeaderStyle = ''
+    DefaultItemStyles.GroupFooterStyle = ''
+    Viewport.Width = 309.000000000000000000
+    Viewport.Height = 196.000000000000000000
+    object btnOK: TButton
+      StyledSettings = [Family, Style, FontColor]
+      ModalResult = 1
+      Position.Y = 200.000000000000000000
+      Size.Width = 129.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Text = #30906#35469
+      TextSettings.Font.Size = 32.000000000000000000
+    end
+    object btnCancel: TButton
+      StyledSettings = [Family, Style, FontColor]
+      ModalResult = 2
+      Position.X = 176.000000000000000000
+      Position.Y = 200.000000000000000000
+      Size.Width = 129.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      Text = #21462#28040
+      TextSettings.Font.Size = 32.000000000000000000
+    end
+  end
+end
